@@ -1,0 +1,182 @@
+@charset "utf-8";
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+}
+.topnav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+body {
+  background-color: #9ceea9;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+p,
+a,
+ul,
+ol,
+li,
+label,
+input{
+  font-family: muli, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+	color: #595959;
+ 
+
+ 
+}
+h1, h2, h3, h4, h5 {
+  font-family: karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+	color: #595959;
+}
+#header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #9CEEA9;
+  border-bottom: 4px solid #FFFFFF;
+}
+#header h1 {
+  font-family: aguafina-script;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+	color: #595959;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+#navigation {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#navigation a {
+  color: #EB232F;
+}
+.main {
+  display: block;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  clear: both;
+  overflow: auto;
+  max-width: 1140px;
+}
+.main #main-right {
+  float: right;
+  width: 37.5%;
+  display: block;
+}
+.main #main-left {
+  float: left;
+  width: 57%;
+  display: block;
+  padding-right: 20px;
+}
+.main #main-right .cta {
+  text-align: center;
+}
+.main #main-right .form {
+  width: 92%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#main-right .form div {
+  margin-bottom: 10px;
+}
+#main-right .form .label {
+}
+#main-right .form .textfield {
+  width: 100%;
+}
+.main #main-right #button {
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
+  padding-right: 36px;
+  padding-left: 36px;
+  border: none;
+  background-color: #EB232F;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.footer {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+
+
